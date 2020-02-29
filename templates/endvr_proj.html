@@ -1,7 +1,7 @@
 <html>
     <head>
         <title>
-            Career Counsellor
+            Area Predictor
         </title>
       <link rel="stylesheet" types="text/css" href="{{url_for('static', filename='mainpage.css')}}">
       <link rel="stylesheet" type="text/css" href="{{url_for('static', filename='bootstrap.css')}}">
@@ -21,7 +21,7 @@
     </head>
     <style>
         .bgimage{
-    background-image: url(side-view-of-woman-in-illuminated-city-at-night-315191.jpg);
+ background-image: url({{ url_for('static', filename='side-view-of-woman-in-illuminated-city-at-night-315191.jpg') }});
     background-size: 100% 100%;
     background background-attachment: fixed;
     width: 100%;
